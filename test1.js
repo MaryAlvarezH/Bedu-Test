@@ -3,6 +3,13 @@
 // suma. El tipo del return debe ser un string.
 
 // Aquí va tu código
+function sumToBinary(num1,num2) {
+  let sum=num1+num2
+  let res = Number(sum).toString(2)
+  console.log('res', res)
+  return res;
+
+}
 
 
 // Test

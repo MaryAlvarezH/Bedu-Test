@@ -12,6 +12,33 @@
 
 // Aquí va tu código
 
+function toJadenSmithPhilosophy(text) {
+    
+    array = text.split(" ")
+    console.log(array)
+
+    let arrayF = array.map((item)=>{
+        console.log('item',item)
+        // item.split()
+        // item.charAt(0).toUpperCase()
+        console.log(item.split())
+        console.log(item.charAt(0).toUpperCase())
+
+        item.charAt(0).toUpperCase()
+
+
+
+
+
+    })
+
+    console.log('ARRAYF', arrayF)
+
+
+
+    
+}
+
 
 // Tests
 describe("toJadenSmithPhilosophy", () => {
